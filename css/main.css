@@ -5,7 +5,11 @@ html, body{
 body{
 	display: flex;
 	flex-direction: column;
-	
+	background: #fff;
+	margin: 0;
+	font-family: Lato, sans-serif;
+	color: #222;
+	font-size: 0.9em;
 }
 main{
 	flex: 1 0 auto;
@@ -13,5 +17,7 @@ main{
 }
 footer{
 	flex: 0 0 90px;
-	background-color: #412916;
+	background-color: rgba(61, 100, 158, .9);
+	padding: 10px;
+	color: fff;
 }
