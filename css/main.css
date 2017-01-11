@@ -13,7 +13,12 @@ body{
 }
 main{
 	flex: 1 0 auto;
-	background-color: #85B1D6;
+	display: flex;
+}
+aside{
+	flex: 0 0 40px;
+	display: flex;
+	flex-direction: column;
 }
 footer{
 	flex: 0 0 90px;
